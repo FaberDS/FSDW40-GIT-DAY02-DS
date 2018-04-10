@@ -1,0 +1,103 @@
+* {
+	font-family: 'Raleway', sans-serif;
+
+
+}
+
+body {
+	width: 1000px;
+	background-color: #d3d2d2;
+}
+#img {
+	text-align: center;
+	position:relative;
+	margin-bottom: 20px;
+	top:2%;
+	width: 500px;
+
+}
+nav{
+	
+	text-align: center;	
+}
+
+li {
+	top:35%;
+	position: relative;
+	border-style: outset;
+	display: inline;
+	background-color:#f0f0f0;
+	margin-top: 15px;
+	padding: 20px 50px 20px 50px;
+}
+
+a {
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #2C2A2A;
+
+}
+li:hover {
+	border:none;
+}
+#main {
+	border: 1px solid #6f6969;
+	margin: 30px 10px 30px 65px;
+	padding: 10px 25px 10px 25px;
+}
+.main {
+	line-height: 2em;
+}
+
+table {
+	width: 600px;
+}
+th, td {
+	padding: 7px 10px 10px 10px;
+}
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: left;
+}
+tr.even {
+	background-color: #efefef;
+}
+tr:hover {
+	background-color: #c3e6e5;
+}
+.price {
+	text-align: right;
+}
+.galary{
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+	line-height: 1.5em;
+}
+.pgalary {
+	left: 30%;
+	width: 400px;
+	position: relative;
+}
+.ifr {
+	float: left;
+	position: relative;
+	margin: 25px;
+	width: 300px;
+}
+.imgr {
+	width: 200px;
+	height: 200px;
+	position: relative;
+
+}
+footer {
+	position: relative;
+	top: 90%;
+	padding: 20px;
+}
